@@ -1,0 +1,22 @@
+digraph {
+    graph [pad="0.5", nodesep="0.5", ranksep="2" fontname = "Roboto"];
+    edge [fontname = "Roboto"];
+    node [shape=plain fontname = "Roboto" fontsize="8"]
+    rankdir=LR;
+
+
+    MyTestVar [label=<
+    <table bgcolor="white" border="1" cellborder="0" cellpadding="5" cellspacing="0">
+      <tr><td bgcolor="#3949ab" colspan="3"><font color="white">MyTestVar</font></td></tr>
+      <tr><td port="TestValue">O</td><td>TestValue</td><td></td></tr>
+      <tr><td></td><td>Variable</td><td port="Variable">O</td></tr>
+    </table>>];
+
+    PascalApp [label=<
+    <table bgcolor="white" border="1" cellborder="0" cellpadding="5" cellspacing="0">
+      <tr><td bgcolor="#3949ab" colspan="3"><font color="white">PascalApp</font></td></tr>
+      <tr><td port="TestVar">O</td><td>TestVar</td><td></td></tr>
+      <tr><td></td><td>Program</td><td port="Program">O</td></tr>
+    </table>>];
+    MyTestVar:Variable->PascalApp:TestVar
+}

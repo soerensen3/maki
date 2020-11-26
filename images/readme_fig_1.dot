@@ -1,0 +1,14 @@
+digraph {
+    graph [pad="0.5", nodesep="0.5", ranksep="2" fontname = "Roboto"];
+    edge [fontname = "Roboto"];
+    node [shape=plain fontname = "Roboto" fontsize="8"]
+    rankdir=LR;
+
+
+    Greeter [label=<
+    <table bgcolor="white" border="1" cellborder="0" cellpadding="5" cellspacing="0">
+      <tr><td bgcolor="#3949ab" colspan="3"><font color="white">Greeter</font></td></tr>
+      <tr><td port="PersonName">O</td><td>PersonName</td><td></td></tr>
+      <tr><td></td><td>DoGreet</td><td port="DoGreet">O</td></tr>
+    </table>>];
+}
