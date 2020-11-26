@@ -58,6 +58,7 @@ Another type of fragment is the the selector. We can define the input PersonName
 **NOTE**
 
 Inputs beginning with two underscores are invisible in the designer. This is useful for nodes that are not supposed to be seen by the user like e.g. the outputs of the root node that should not be connected to something else.
+
 ---
 
 ## Multiple outputs
