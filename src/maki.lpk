@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="5">
+    <Name Value="maki"/>
+    <Type Value="RunAndDesignTime"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <SearchPaths>
+        <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+    </CompilerOptions>
+    <Files>
+      <Item>
+        <Filename Value="maki.parser.pas"/>
+        <AddToUsesPkgSection Value="False"/>
+        <UnitName Value="maki.parser"/>
+      </Item>
+      <Item>
+        <Filename Value="maki.tokenizer.pas"/>
+        <AddToUsesPkgSection Value="False"/>
+        <UnitName Value="maki.tokenizer"/>
+      </Item>
+      <Item>
+        <Filename Value="maki.module.pas"/>
+        <AddToUsesPkgSection Value="False"/>
+        <UnitName Value="maki.module"/>
+      </Item>
+      <Item>
+        <Filename Value="maki.scanners.pas"/>
+        <AddToUsesPkgSection Value="False"/>
+        <UnitName Value="maki.scanners"/>
+      </Item>
+      <Item>
+        <Filename Value="maki.lists.pas"/>
+        <UnitName Value="maki.lists"/>
+      </Item>
+      <Item>
+        <Filename Value="maki.text.pas"/>
+        <AddToUsesPkgSection Value="False"/>
+        <UnitName Value="maki.text"/>
+      </Item>
+      <Item>
+        <Filename Value="maki.fragments.pas"/>
+        <AddToUsesPkgSection Value="False"/>
+        <UnitName Value="maki.fragments"/>
+      </Item>
+      <Item>
+        <Filename Value="maki.node.pas"/>
+        <UnitName Value="maki.node"/>
+      </Item>
+      <Item>
+        <Filename Value="maki.compiler.pas"/>
+        <AddToUsesPkgSection Value="False"/>
+        <UnitName Value="maki.compiler"/>
+      </Item>
+      <Item>
+        <Filename Value="maki.base.pas"/>
+        <AddToUsesPkgSection Value="False"/>
+        <UnitName Value="maki.base"/>
+      </Item>
+      <Item>
+        <Filename Value="maki.sockets.pas"/>
+        <AddToUsesPkgSection Value="False"/>
+        <UnitName Value="maki.sockets"/>
+      </Item>
+    </Files>
+    <RequiredPkgs>
+      <Item>
+        <PackageName Value="storagetrees"/>
+      </Item>
+      <Item>
+        <PackageName Value="FCL"/>
+      </Item>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+      <UseFileFilters Value="True"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

@@ -24,5 +24,6 @@ backup/
 !*.svg
 !*.ico
 !*.md
+!*.dot
 !.gitignore
 
