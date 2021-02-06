@@ -12,7 +12,6 @@ For now it is not released to the public because I want to define an api first. 
 
 If you have any suggestions or ideas you are very welcome to create a ticket in the issues tracker. 
 
-# Reference
+# Documentation
 
-[Getting Started](/doc/Getting Started.md).
-API Reference (Soon)
+* [Getting Started](doc/maki-getting-started.md).
